@@ -42,8 +42,8 @@ p{
   width: auto;
 }
 .imagenes{
-  padding-top: 20px;
-  padding-bottom: 10px;
+
+display: inline-block;
 }
 #origen, #extincion{
   padding-top: 40px;
@@ -78,4 +78,23 @@ float: right;
 }
 .container:after {
     clear: both;
+}
+.close {
+    position: absolute;
+    right: -35px;
+    top:0px;
+    color: white;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.img1{
+  display: inline-block;
+  position: relative;
 }
