@@ -23,10 +23,11 @@ span{
 button{
   color: white;
   background-color: #D1231B;
-  width: 334px;
+  width: 338px;
   height: 20px;
   border: 0px;
   text-align: center;
+
 }
 p{
   color: white;
@@ -36,20 +37,26 @@ p{
 .botones{
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
 }
 .imagenes{
   padding-top: 20px;
   padding-bottom: 10px;
 }
 #origen, #extincion{
-  width: 500px;
+  padding-top: 40px;
+  width: 47%;
   display: inline-block;
+  position: relative;
 }
-#orginen{
-  padding-right: 10px;
+#origen{
+
+
 }
 #extincion{
-  padding-left: 10px;
+float: right;
 }
 .container {
   width: 1024px;
