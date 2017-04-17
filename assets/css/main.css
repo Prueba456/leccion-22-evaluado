@@ -42,7 +42,7 @@ p{
   width: auto;
 }
 .imagenes{
-
+margin-top: 15px;
 display: inline-block;
 }
 #origen, #extincion{
